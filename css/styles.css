@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;;
+}
+
+.header{
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('../img/WhatsApp\ Image\ 2024-09-18\ at\ 23.16.38_67d1839d.jpg') center center no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+#aboutMe .card{
+  background-color: #f4f4f4;
+}
+.form-submission{
+  background-color: #f4f4f4;
+
+}
+
+@media (max-width:576px){
+  .modal-detailes{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-image img{
+    padding-left: 100px;
+  }
+}
+
+@media (min-width:768px){
+  .social a i{
+    font-size: 40px;
+  }
+}
+
+@media(max-width:992px){
+  .social a i{
+    font-size: 40px;
+  }
+}
